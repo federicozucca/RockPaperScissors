@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr">
+    <TextView
+        android:id="@+id/welcome_text"
+        android:textSize="30dp"
+        android:text="Let's play Rock Paper and Scissors.\n\nYou have to make your choice pressing a button and play against the computer.\n\nRemember:\n- Rock beats Scissors,\n- Scissors beats Paper,\n- Paper beats Rock. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:text="Play"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="145dp"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

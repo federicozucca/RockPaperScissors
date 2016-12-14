@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+<Button
+        android:id="@+id/rock_button"
+        android:text=""
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="132dp"
+        android:layout_height="130dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/rock"/>
+
+    <Button
+        android:id="@+id/scissors_button"
+        android:text=""
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="132dp"
+        android:layout_height="130dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/scissors"/>
+
+
+    <Button
+        android:id="@+id/paper_button"
+        android:text=""
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="235dp"
+        android:layout_width="132dp"
+        android:layout_height="130dp"
+        android:layout_weight="0.04"
+        android:background="@drawable/paper"/>
+
+
+    <TextView
+        android:id="@+id/result_text"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/win_count_text"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
