@@ -33,7 +33,7 @@ public class RockPaperScissors extends AppCompatActivity {
         else if (game.getWinner()=="Computer Wins!"){
             computerWins++;
         }
-        else if (game.getWinner()=="It's a Draw"){
+        else if (game.getWinner()=="It's a Draw!"){
             drawCounter++;
         }
 

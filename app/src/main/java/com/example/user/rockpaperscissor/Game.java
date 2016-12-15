@@ -33,10 +33,10 @@ public class Game {
             return "You Win!";
         }
         else if(this.computerOption == "Rock" && this.playerOption == "Rock"){
-            return "It's a Draw";
+            return "It's a Draw!";
         }
         else if (this.computerOption == "Paper" && this.playerOption == "Paper"){
-            return "It's a Draw";
+            return "It's a Draw!";
         }
         else if (this.computerOption == "Paper" && this.playerOption == "Scissors"){
             return "You Win!";
